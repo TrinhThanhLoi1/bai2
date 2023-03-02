@@ -1,0 +1,9 @@
+struct vas
+{
+    int info;
+    struct vas *pNext;
+    struct vas *pPrev;
+};
+typedef struct vas VAS;
+
+typedef VAS *TREE;
